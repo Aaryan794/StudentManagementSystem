@@ -1,8 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.Admin.AdminMenu">
-
-</AnchorPane>
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <AnchorPane prefHeight="42.0" prefWidth="700.0" style="-fx-background-color: #6967DF;">
+                    <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center;" text="Admin panal" wrappingWidth="77.75650024414062" />
+                        <Button layoutX="594.0" layoutY="8.0" mnemonicParsing="false" style="-fx-border-radius: 8px;" text="logout" />
+                        <Text fill="WHITE" layoutX="649.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <AnchorPane prefHeight="42.0" prefWidth="700.0" style="-fx-background-color: #6967DF;">
+                    <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center;" text="Admin panal" wrappingWidth="77.75650024414062" />
+                        <Button layoutX="594.0" layoutY="8.0" mnemonicParsing="false" style="-fx-border-radius: 8px;" text="logout" />
+                        <Text fill="WHITE" layoutX="649.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="-1.0" layoutY="44.0" prefHeight="357.0" prefWidth="200.0">
+                    <children>
+                        <AnchorPane layoutY="117.0" prefHeight="97.0" prefWidth="209.0">
+                            <children>
+                                <AnchorPane layoutX="-3.0" layoutY="-104.0" prefHeight="97.0" prefWidth="220.0">
+                                    <children>
+                                        <AnchorPane layoutX="20.0" layoutY="21.0" prefHeight="64.0" prefWidth="152.0" style="-fx-background-color: #C2C1F0EB; -fx-border-radius: 30px;">
+                                            <children>
+                                                <Text fill="#464646" layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit student" wrappingWidth="71.30859375" />
+                                                <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #6967DF; -fx-border-radius: 10px; -fx-alignment: center;" text="Edit" />
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="74.0" prefWidth="200.0">
+                                    <children>
+                                        <AnchorPane layoutX="-3.0" layoutY="8.0" prefHeight="97.0" prefWidth="220.0">
+                                            <children>
+                                                <Text layoutX="21.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Staff Management" wrappingWidth="119.47006225585938" />
+                                                <AnchorPane layoutX="20.0" layoutY="21.0" prefHeight="64.0" prefWidth="152.0" style="-fx-background-color: #C2C1F0EB; -fx-border-radius: 30px;">
+                                                    <children>
+                                                        <Text fill="#464646" layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit staff" wrappingWidth="71.30859375" />
+                                                        <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #6967DF; -fx-border-radius: 10px; -fx-alignment: center;" text="Edit" />
+                                                    </children>
+                                                </AnchorPane>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                      <AnchorPane prefHeight="357.0" prefWidth="200.0">
+                          <children>
+                              <AnchorPane layoutY="8.0" prefHeight="74.0" prefWidth="200.0">
+                                  <children>
+                                      <Text layoutX="21.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Management" wrappingWidth="119.47006225585938" />
+                                  </children>
+                        </AnchorPane>
+                              <AnchorPane layoutX="-3.0" layoutY="228.0" prefHeight="97.0" prefWidth="220.0">
+                                  <children>
+                                      <Text layoutX="21.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Extra Curriculum" wrappingWidth="119.47006225585938" />
+                                      <AnchorPane layoutX="20.0" layoutY="24.0" prefHeight="64.0" prefWidth="152.0" style="-fx-background-color: #C2C1F0EB; -fx-border-radius: 30px;">
+                                          <children>
+                                              <Text fill="#464646" layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit section" wrappingWidth="71.30859375" />
+                                              <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #6967DF; -fx-border-radius: 10px; -fx-alignment: center;" text="Edit" />
+                                          </children>
+                                      </AnchorPane>
+                                  </children>
+                              </AnchorPane>
+                          </children>
+                      </AnchorPane>
+                    </children>
+                </AnchorPane>
+            <AnchorPane layoutX="250.0" layoutY="44.0" prefHeight="357.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane layoutY="117.0" prefHeight="97.0" prefWidth="209.0">
+                     <children>
+                        <AnchorPane layoutX="-3.0" layoutY="-104.0" prefHeight="97.0" prefWidth="220.0">
+                           <children>
+                              <AnchorPane layoutX="20.0" layoutY="21.0" prefHeight="64.0" prefWidth="152.0" style="-fx-background-color: #C2C1F0EB; -fx-border-radius: 30px;">
+                                 <children>
+                                    <Text fill="#464646" layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit teacher" wrappingWidth="71.30859375" />
+                                    <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #6967DF; -fx-border-radius: 10px; -fx-alignment: center;" text="Edit" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="74.0" prefWidth="200.0">
+                           <children>
+                              <AnchorPane layoutX="-3.0" layoutY="8.0" prefHeight="97.0" prefWidth="220.0">
+                                 <children>
+                                    <Text layoutX="21.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin account control" wrappingWidth="141.47006225585938" />
+                                    <AnchorPane layoutX="20.0" layoutY="21.0" prefHeight="64.0" prefWidth="152.0" style="-fx-background-color: #C2C1F0EB; -fx-border-radius: 30px;">
+                                       <children>
+                                          <Text fill="#464646" layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit student" wrappingWidth="71.30859375" />
+                                          <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #6967DF; -fx-border-radius: 10px; -fx-alignment: center;" text="Edit" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="357.0" prefWidth="200.0">
+                     <children>
+                        <AnchorPane layoutY="8.0" prefHeight="74.0" prefWidth="200.0">
+                           <children>
+                              <Text layoutX="21.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Management" wrappingWidth="119.47006225585938" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="-3.0" layoutY="228.0" prefHeight="97.0" prefWidth="220.0">
+                           <children>
+                              <Text layoutX="21.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attencdance management" wrappingWidth="152.0" />
+                              <AnchorPane layoutX="20.0" layoutY="24.0" prefHeight="64.0" prefWidth="152.0" style="-fx-background-color: #C2C1F0EB; -fx-border-radius: 30px;">
+                                 <children>
+                                    <Text fill="#464646" layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit student" wrappingWidth="71.30859375" />
+                                    <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #6967DF; -fx-border-radius: 10px; -fx-alignment: center;" text="Edit" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="476.0" layoutY="44.0" prefHeight="357.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane layoutY="117.0" prefHeight="97.0" prefWidth="209.0">
+                     <children>
+                        <AnchorPane layoutX="-3.0" layoutY="-104.0" prefHeight="97.0" prefWidth="220.0">
+                           <children>
+                              <AnchorPane layoutX="20.0" layoutY="21.0" prefHeight="64.0" prefWidth="152.0" style="-fx-background-color: #C2C1F0EB; -fx-border-radius: 30px;">
+                                 <children>
+                                    <Text fill="#464646" layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit user" wrappingWidth="71.30859375" />
+                                    <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #6967DF; -fx-border-radius: 10px; -fx-alignment: center;" text="Edit" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="74.0" prefWidth="200.0">
+                           <children>
+                              <AnchorPane layoutX="-3.0" layoutY="8.0" prefHeight="97.0" prefWidth="220.0">
+                                 <children>
+                                    <Text layoutX="21.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Extra curriculum " wrappingWidth="119.47006225585938" />
+                                    <AnchorPane layoutX="20.0" layoutY="21.0" prefHeight="64.0" prefWidth="152.0" style="-fx-background-color: #C2C1F0EB; -fx-border-radius: 30px;">
+                                       <children>
+                                          <Text fill="#464646" layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit section" wrappingWidth="71.30859375" />
+                                          <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #6967DF; -fx-border-radius: 10px; -fx-alignment: center;" text="Edit" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="357.0" prefWidth="200.0">
+                     <children>
+                        <AnchorPane layoutY="8.0" prefHeight="74.0" prefWidth="200.0">
+                           <children>
+                              <Text layoutX="21.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user Management" wrappingWidth="119.47006225585938" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
